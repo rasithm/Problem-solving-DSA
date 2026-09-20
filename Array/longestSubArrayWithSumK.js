@@ -45,10 +45,10 @@ console.log(maxLength)
 
 
 // optimal solutin 
-const arr = [1,2,3,1,1,1,1,4,2,3];
-const k = 6;
-let currentsum = 0;
-let maxLength = 0;
+// const arr = [1,2,3,1,1,1,1,4,2,3];
+// const k = 6;
+// let currentsum = 0;
+// let maxLength = 0;
 let i = 0;
 // let j = 0;
 for(let j = 0 ; j < arr.length ; j++){
