@@ -30,3 +30,25 @@ for(let i = 0 ; i < arr.length ; i++){
 
     map.set(arr[i] , i)
 }
+
+//optimal approach using two pointer technique
+// const arr = [2,6,5,8,11]
+// const target = 14;
+const sortedArr = arr.sort((a,b) => a - b);
+let left = 0;
+let right = arr.length - 1;
+
+while(left < right){
+    let sum = arr[left] + arr[right];
+    if(sum === target){
+        console.log("yes")
+        console.log([left, right])
+        break;
+    }
+    else if(sum < target){
+        left++;
+    }
+    else{
+        right--;
+    }
+}
