@@ -5,3 +5,6 @@ PL_300 :  F7C39159944710A4
 DP_900 : A4AA9172ED242A9E
 
 apikeyclaud : aero_live_UX-7MNuDLCSdYk93QAsfmUEennLXuHYI3KL9X-WPfVg
+
+
+apiforNavdia = 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
